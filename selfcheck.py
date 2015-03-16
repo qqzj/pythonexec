@@ -15,3 +15,11 @@ print li[3]
 
 ran = range(100)
 print ran[::2]
+
+
+import os
+from collections import Iterable
+dirlist = os.listdir('.')
+if(isinstance(dirlist, Iterable)):
+    for d in dirlist:
+        print d,
