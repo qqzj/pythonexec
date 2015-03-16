@@ -31,3 +31,7 @@ b = generator_func()
 print b
 for x in b:
     print x
+
+print range(0, 10)
+a = xrange(0, 10)
+print a
