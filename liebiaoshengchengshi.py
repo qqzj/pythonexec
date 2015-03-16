@@ -30,3 +30,6 @@ else:
 print
 di = {'Dell':85, 'Lenovo':92, 'Apple':94, 'IBM':89}
 print [a+'=>'+str(b) for a,b in di.iteritems()]
+
+print [x for x in xrange(1, 10)]
+print (x for x in xrange(1, 10))
