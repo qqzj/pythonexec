@@ -1,4 +1,5 @@
 # coding=utf-8
+# -*- coding: utf-8 -*-
 # 
 # YouTube、Google、Yahoo!、NASA都在内部大量地使用Python
 # Instagram，还有国内的豆瓣
@@ -15,5 +16,7 @@
 # CPython(原生),IPython(国产加的壳),PyPy(Python),Jython(Java),IronPython(Microsoft)
 # 
 # raw_input和print是在命令行下面最基本的输入和输出
+# raw_input()将所有输入作为字符串看待,input()需要输入合法的Python表达式
 # 
-# http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386818214042e9c46552422e42d8a00f019e088506ce000
+# 
+# 
